@@ -204,11 +204,11 @@ footer{
     h1{
        font-size: 40px; 
     }
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    height: 80vh;
     ul{
         display: grid;
         gap: 20px;
@@ -315,7 +315,6 @@ input:checked + .slider::before {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    height: 35vh;
 }
 
 .project-card{
@@ -371,6 +370,10 @@ input:checked + .slider::before {
 .funf-section{
     text-align:center;
     padding-inline: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 80vh;
 }
 
 .funfact{
@@ -431,4 +434,14 @@ input:checked + .slider::before {
 .fact-back p{
     font-size:17px;
     line-height:1.6;
+}
+
+.project-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    h1{
+        margin: 0;
+    }
 }
