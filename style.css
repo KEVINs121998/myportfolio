@@ -28,9 +28,6 @@ body.dark-mode {
     .menu-btn{
         color: white;
     }
-    .slider{
-        border: 1px solid white;
-    }
 }
 
 header nav a:hover{
@@ -269,45 +266,19 @@ footer{
     transform: translateX(0);
 }
 
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 32px;
-}
-
-.switch input {
-    display: none;
-}
-
-.slider {
-    position: absolute;
-    inset: 0;
-    background: #ccc;
-    border-radius: 50px;
+#theme-btn{
+    border-radius:8px ;
     cursor: pointer;
+    background-color: black;
+    border: none;
     transition: 0.3s;
-    border: 2px solid black;
-}
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+} 
 
-.slider::before {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 4px;
-    top: 2px;
-    background: white;
-    border-radius: 50%;
-    transition: 0.3s;
-}
-
-input:checked + .slider {
-    background: #222;
-}
-
-input:checked + .slider::before {
-    transform: translateX(28px);
+#theme-btn:hover{
+background-color: #666;
 }
 
 .project-div{
