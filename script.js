@@ -1,16 +1,16 @@
-const toggle = document.getElementById("theme-btn");
+const toggleBtn = document.getElementById("theme-btn");
 
 if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark-mode");
 }
 
-toggle.addEventListener("click", function () {
+toggleBtn.addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 
     if (document.body.classList.contains("dark-mode")) {
-       toggle.textContent="Light Mode"
+       toggleBtn.textContent="Light Mode"
     } else {
-        toggle.textContent="Dark Mode"
+        toggleBtn.textContent="Dark Mode"
     }
 });
 
