@@ -63,6 +63,7 @@ text-decoration: none;
 @media(max-width:768px){
     .funf-section{
 height: 100% !important;
+        padding: 20px 15px;
     }
     #theme-btn{
         width: 40%;
@@ -147,10 +148,6 @@ display: none;
     .fact-back p{
         font-size: 15px;
         line-height: 1.5;
-    }
-
-    .funf-section{
-        padding: 20px 15px;
     }
 
 }
